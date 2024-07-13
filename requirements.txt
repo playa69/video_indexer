@@ -1,0 +1,16 @@
+celery[redis]
+fastapi
+uvicorn
+redis
+python-redis-lock
+redis-lru
+lancedb
+torch
+transformers
+numpy
+pandas
+opencv-python-headless==4.10.0.82
+easyocr==1.7.1
+pillow==10.3.0
+requests==2.31.0
+numpy==1.26.4
