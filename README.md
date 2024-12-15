@@ -78,25 +78,27 @@ Ouput:
 
 ```
 .
-├── Dockerfile
-├── README.md
-├── app.py
-├── backend.py
-├── docker-compose.yml
-├── models_loader.py
-├── requirements.txt
-├── setup.py
-├── test.py
-├── text_summary.py
-├── conf - конфиг celery, nginx, flower
-├── core
-│   ├── ocr - распознование текста на кадрах
-│   ├── text_cleanup - суммаризация текста
-├── junk - заметки, наработки
-├── storage - векторная база данных
-├── tasks - логика обработчиков запросов, обработка ruclip
-├── upload_video - пример индексации вид
-└── Документация - документация и призентации проекта
+.
+├── Dockerfile                 # Конфигурация для контейнера Docker
+├── README.md                  # Описание проекта
+├── app.py                     # Основной файл приложения
+├── backend.py                 # Логика backend части приложения
+├── docker-compose.yml         # Конфигурация для Docker Compose
+├── models_loader.py           # Загрузка и инициализация моделей
+├── requirements.txt           # Список зависимостей
+├── setup.py                   # Настройки проекта
+├── test.py                    # Тесты для функционала
+├── text_summary.py            # Скрипт для суммаризации текста
+├── conf                       # Конфигурации для Celery, Nginx, Flower
+├── core                       # Основная логика проекта
+│   ├── ocr                    # Модуль для распознавания текста на кадрах
+│   ├── text_cleanup           # Модуль для суммаризации текста
+├── junk                       # Вспомогательные файлы, наработки
+├── storage                    # Модуль для работы с векторной базой данных
+├── tasks                      # Логика обработчиков запросов, обработка ruCLIP
+├── upload_video               # Пример индексации видео
+└── Документация               # Документация и презентации проекта
+
 ```
 ## Installation
 
